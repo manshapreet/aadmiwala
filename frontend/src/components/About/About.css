@@ -1,0 +1,111 @@
+.AboutMain{
+    min-height: calc(100vh - 149px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 64px;
+    margin-top: 32px;
+}
+
+.AboutMain>*{
+    max-width: 700px;
+}
+
+.aboutSubHead{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.aboutHead{
+    font-size: 88px;
+    font-weight: 700;
+    color: var(--orange);
+}
+
+.aboutBtn{
+    background-color: var(--black);
+    border: 1px solid var(--black);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+}
+
+.aboutBtn:hover{
+    color: var(--orange);
+    gap: 10px;
+}
+
+.AboutBoxDiv{
+    margin: 0px 0px 80px;
+    padding: 80px 64px 0;
+}
+
+.AboutBox{
+    padding: 64px 80px;
+
+    background: linear-gradient(260.69deg, #713F00 -5.88%, #5A3301 9.16%, #2F1C04 41.54%, #221505 67.57%);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 69% 25%;
+    gap: 60px;
+    text-align: left;
+    align-items: center;
+}
+
+.aboutCardImg{
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.AboutBoxHeading{
+    color: var(--orange);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.AboutBoxText{
+    max-width: 640px;
+    color: white;
+}
+
+.AboutTimeline{
+    padding: 0 64px;
+}
+
+.timelineContent{
+    color: var(--black);
+    padding-bottom: 100px;
+    max-width: 500px;
+}
+
+.timelineHead{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.MuiTimelineSeparator-root.css-1fe7e6p-MuiTimelineSeparator-root> *{
+    background-color: var(--orange);
+}
+
+.css-v6mo1y-MuiTimelineDot-root{
+    height: 15px;
+    width: 15px;
+    margin: 0 !important;
+}
+
+.css-1ami7lv-MuiTimelineConnector-root{
+    width: 4px !important;
+}
+
+.timelineImgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

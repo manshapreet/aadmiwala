@@ -1,0 +1,52 @@
+.Nav{
+    padding: 16px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    gap: 32px;
+    font-weight: 400;
+    color: var(--black);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 5
+}
+
+.navLogo{
+    height: 32px;
+}
+
+.navItems{
+    display: flex;
+    flex-grow: 1;
+    gap: 8px;
+    justify-content: space-evenly;
+}
+.navItems>div{cursor: pointer;}
+
+.navBtns{
+    display: flex;
+    gap: 16px;
+}
+
+.navLoginBtn{
+    border: 1px solid var(--black);
+    background-color: white;
+}
+
+.navSignupBtn{
+    border: 1px solid var(--black);
+    background-color: var(--black);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.navSignupBtn>.css-i4bv87-MuiSvgIcon-root{
+    height: 0.8em !important;
+}
+
+.navItemBold{
+    font-weight: 700;
+}

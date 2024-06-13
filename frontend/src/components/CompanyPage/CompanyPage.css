@@ -1,0 +1,108 @@
+.CompanyPage{
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.companyDiv{
+    padding: 64px;
+    text-align: left;
+    width: 80%;
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* font-size: 14px; */
+}
+
+.companyTopFlex{
+    display: grid;
+    grid-template-columns: 1fr 180px;
+    gap: 32px;
+}
+
+.companyData{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.companyImgsDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    width: max-content;
+    background-color: #0000001b;
+}
+
+.companyImgsDiv>div{
+    height: 130px;
+    width: 130px;
+    /* border: 1px solid #00000056; */
+    background-color: white;
+}
+
+.companyImgsDiv>div>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.company_name{
+    font-weight: 700;
+    color: var(--orange);
+    font-size: 32px;
+}
+
+.company_facilities{
+    /* font-size: 14px; */
+    background-color: var(--grey);
+    border-radius: 4px;
+    padding: 2px 8px;
+    align-self: flex-start;
+    font-weight: 600;
+    color: #00000099;
+    margin: 24px 0;
+}
+
+.company_desc{
+    color: #00000099;
+    max-width: 600px;
+}
+.company_date{
+    color: #00000080;
+}
+
+.jobTitle{font-weight: 700;}
+
+.getinTouchBtn{
+    /* flex-grow: 1; */
+    max-width: 140px;
+    border-radius: 20px;
+    padding: 6px 16px;
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    font-weight: 600;
+}
+
+.GetinTouchDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.GIT_input{
+    border-radius: 8px;
+    padding: 12px 16px;
+    background-color: #6484961A;
+    border: 0.25px solid #2a2f336e;
+    font-size: 14px;
+    color: #2A2F3399;
+    max-width: 300px;
+}
